@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/black"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please select your gender"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/butt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="female"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        />
+    <RadioButton
+        android:id="@+id/butt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="male"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+  </RadioGroup>
+    <Button
+        android:id="@+id/shbutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="show"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
